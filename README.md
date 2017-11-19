@@ -10,10 +10,8 @@
 - Audio en cours d'appel: oui
 - Camera: psaa testé 
 
-
-
-Créer - .repo/local_manifests/roomservice.xml avec le contenu suivant:
-
+- Créer - .repo/local_manifests/roomservice.xml avec le contenu suivant:
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="Valera1978/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" />
@@ -26,3 +24,4 @@ Créer - .repo/local_manifests/roomservice.xml avec le contenu suivant:
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" />
 </manifest>
+```
