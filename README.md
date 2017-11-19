@@ -1,4 +1,3 @@
-------------------------------
 status
 
 ROM démarage: oui
@@ -10,7 +9,7 @@ RIL: oui
 données mobile: oui
 Audio en cours d'appel: oui
 Camera: psaa testé 
-------------------------------
+
 Créer - .repo/local_manifests/roomservice.xml avec le contenu suivant:
 
 <?xml version="1.0" encoding="UTF-8"?>
